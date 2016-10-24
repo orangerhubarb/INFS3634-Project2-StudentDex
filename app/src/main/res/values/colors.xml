@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="white">#ffffff</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="primary_inverse_text">#ffffff</color>
+    <color name="secondary_text_inverse">#ffffff</color>
+    <color name="delete_colour">#FF0000</color>
+
+    <drawable name="itemPressed">#00BCD4</drawable>
+    <drawable name="itemSelected">#0097A7</drawable>
+
+</resources>

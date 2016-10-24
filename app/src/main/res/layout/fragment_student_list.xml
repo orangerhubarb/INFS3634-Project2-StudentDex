@@ -1,0 +1,50 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#FFFAFAFA"
+    tools:context="com.example.infs3634project2.views.StudentListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchStudents"
+            android:hint="Search for students here"
+            android:textSize="17sp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableRight="@android:drawable/ic_menu_search" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/studentsRecyclerViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchStudents"/>
+
+        <Button
+            android:id="@+id/newStudentButton"
+            android:text="New Student"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/studentsRecyclerView"
+            android:backgroundTint="@color/colorAccent"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

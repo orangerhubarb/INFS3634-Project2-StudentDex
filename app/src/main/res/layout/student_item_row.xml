@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_gravity="center_horizontal"
+    app:cardBackgroundColor="#FF0097A7">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/ic_students"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_student"
+            android:tint="@color/white"
+            android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEFAULT LOL"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/ic_students"
+        android:textSize="24sp"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

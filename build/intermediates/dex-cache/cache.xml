@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_bf947554516ece654cf23fae5b38d64039b6d8bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_b74fe331aa0c6f2e58cc232d0422e560d0096224/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_e617bf153412b6614df10c9af4db59a4008054ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_d9219ee0a0a5b179db5cfd2e01dfff3614ae2283/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_1fa424adaa932e0ef22e58a9a44fa86873f0f80a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_aabf022965f2fa34bea61c01fbd5cd7860dc1491/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_5334004fbaa300f7cf14bc692de2d5c46f65d5a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="35f5db7ea0f111593e9d391c90245bbe9daa3b8f">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_117d02ad054631cd86d011300199bbca967b3355/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_a200f9fffa969b0f84d97c697c1ae1de90c69e1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Documents/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_50d7b6d7f691c53d4ecec9b5a5aab1ac8dc1694d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_d5d14344a961053fa9f3f82a67fa38d9b447d82b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1d3047ea1a1701c3ba0fa2c8173a2f12e2ca0274">
+        <dex dex="/Users/Davian/Desktop/INFS3634Project2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b98b7a2856bdf64abd474f15f946af4391dd3358/classes.dex" />
+    </item>
+
+</items>
