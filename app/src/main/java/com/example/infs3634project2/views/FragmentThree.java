@@ -62,7 +62,6 @@ public class FragmentThree extends Fragment {
         studentID = ((StudentProfileTabs) this.getActivity()).getID();
 
         newTodoList = mStudent.getTodoList();
-        Log.d("Todo List Return", newTodoList.toString());
 
         todoRecyclerView = (RecyclerView) view.findViewById(R.id.todoRecyclerView);
         todoAdapter =  new TodoAdapter(newTodoList, this, studentID);
@@ -79,7 +78,6 @@ public class FragmentThree extends Fragment {
                 String newEntry = newTodoEntry.getText().toString();
                 newTodoList.add(newEntry);
                 studentsContract.updateTodoList(newTodoList, studentID);
-                Log.d("DEBUG FRAG UPD TODO", studentID + newTodoList.toString());
                 todoAdapter.notifyDataSetChanged();
                 newTodoEntry.getText().clear();
             }

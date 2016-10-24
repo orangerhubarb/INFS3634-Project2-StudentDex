@@ -95,10 +95,9 @@ public class NewTutorial extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Need to regex this
                 if (tutorialName.getText().toString().matches("") || !tutorialName.getText().toString().matches("[a-zA-Z]{4}[0-9]{4}")) {
                     tutorialNameError.setErrorEnabled(true);
-                    tutorialNameError.setError("Please enter a valid tutorial name.");
+                    tutorialNameError.setError("Please enter a valid tutorial name (eg. INFS3634).");
                 } else {
 
                     String tutorialTime = classStartSpinner.getSelectedItem().toString() + classAMPMStartSpinner.getSelectedItem().toString() + " - "

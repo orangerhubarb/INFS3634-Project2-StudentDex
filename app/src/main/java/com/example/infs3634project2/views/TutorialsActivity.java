@@ -56,14 +56,13 @@ public class TutorialsActivity extends AppCompatActivity implements StudentListF
 
 
         currentTutorialID = (int) getIntent().getSerializableExtra("TutorialID");
-        Log.d("CURRENTTUTID", String.valueOf(currentTutorialID));
 
         Button newTutorialButton = (Button) findViewById(R.id.newTutorialButton);
         assert newTutorialButton != null;
         newTutorialButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //This should redirect to a blank list of the students but working out Tutorials right now
+                
                 Intent showClasses = new Intent(TutorialsActivity.this, NewTutorial.class);
                 startActivity(showClasses);
             }
@@ -81,7 +80,6 @@ public class TutorialsActivity extends AppCompatActivity implements StudentListF
 
                 if(currentTutorialID != 0) {
                     newStudent.putExtra("TutorialID", currentTutorialID);
-                    Log.d("StartingNewStudent", String.valueOf(currentTutorialID));
                     startActivity(newStudent);
                 }
                 else {
@@ -108,7 +106,6 @@ public class TutorialsActivity extends AppCompatActivity implements StudentListF
 
         getmRecyclerViewStudents = (RecyclerView) findViewById(R.id.studentsRecyclerViewFragment);
 
-        Log.d("CurrentTutID", String.valueOf(currentTutorialID));
         if (currentTutorialID != 0) {
             updateFragmentList(currentTutorialID);
         }
@@ -124,7 +121,6 @@ public class TutorialsActivity extends AppCompatActivity implements StudentListF
 
         getmRecyclerViewStudents.setLayoutManager(new LinearLayoutManager(TutorialsActivity.this));
         studentsAdapter = new StudentsAdapter(studentsList);
-        Log.d("STULIST", studentsList.toString());
         getmRecyclerViewStudents.setAdapter(studentsAdapter);
         studentsAdapter.notifyDataSetChanged();
 
@@ -137,7 +133,6 @@ public class TutorialsActivity extends AppCompatActivity implements StudentListF
     public void onResume() {
         super.onResume();
         int backTutorialID = (int) getIntent().getSerializableExtra("TutorialID");
-        Log.d("BackID", String.valueOf(backTutorialID));
         DBOpenHelper dbOpenHelper = new DBOpenHelper(this);
         TutorialsContract tutorialsContract = new TutorialsContract(dbOpenHelper);
 

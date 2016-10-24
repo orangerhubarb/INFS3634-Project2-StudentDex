@@ -69,7 +69,6 @@ public class NewStudent extends AppCompatActivity {
         });
 
         tutorialID = (int) getIntent().getSerializableExtra("TutorialID");
-        Log.d("New Student TID", Integer.toString(tutorialID));
 
         firstNameEditText = (EditText) findViewById(R.id.firstNameEditText);
         firstNameError = (TextInputLayout) findViewById(R.id.firstNameTextInput);
@@ -109,26 +108,25 @@ public class NewStudent extends AppCompatActivity {
                 int yearOfDegree = Integer.parseInt(yearOfDegreeSpinner.getSelectedItem().toString());
                 String githubUsername = githubUsernameEditText.getText().toString();
 
-                //Could we maybe do strengths/weaknesses after?? Just to reduce clustering of the screen
                 String strength = strengths.getText().toString();
                 String weakness = weaknesses.getText().toString();
 
                 if(fName.matches("")) {
                     firstNameError.setErrorEnabled(true);
-                    firstNameError.setError("You have not provided a first name.");
+                    firstNameError.setError("Please provide a first name.");
                     noError = false;
                 }
 
                 if(lName.matches("")) {
                     lastNameError.setErrorEnabled(true);
-                    lastNameError.setError("You have not provided a last name.");
+                    lastNameError.setError("Please provide a last name.");
                     noError = false;
                 }
 
                 //Need to work out the regex here to match z followed by any 8 numbers
                 if(zID.matches("") || !zID.matches("z[0-9]{7}")) {
                     zIDError.setErrorEnabled(true);
-                    zIDError.setError("You have not entered a valid zID.");
+                    zIDError.setError("Please provide a valid zID (eg. z5062948).");
                     noError = false;
                 }
 
@@ -144,7 +142,6 @@ public class NewStudent extends AppCompatActivity {
 
                     int studentID = (int) studentsContract.insertNewStudent(student);
 
-                    //Have to change this so it redirects you to the new students page, or just back to the list??
                     Intent showStudentProfile = new Intent(NewStudent.this, StudentProfileTabs.class);
 
                     showStudentProfile.putExtra("StudentID", studentID);

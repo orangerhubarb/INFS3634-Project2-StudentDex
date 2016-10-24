@@ -66,7 +66,6 @@ public class FragmentTwo extends Fragment implements GitHubCallback<ArrayList<Pr
 
         if (mStudent.getStrengths() != null && !mStudent.getStrengths().trim().isEmpty()) {
             studentStrength.setText(mStudent.getStrengths());
-            Log.d("StrengthsSet", mStudent.getStrengths());
         }
 
         if (mStudent.getWeaknesses() != null && !mStudent.getWeaknesses().trim().isEmpty()) {
@@ -83,8 +82,7 @@ public class FragmentTwo extends Fragment implements GitHubCallback<ArrayList<Pr
 
     @Override
     public void onTaskCompleted(ArrayList<Projects> listOfProjects) {
-        Log.d("Debug", "URL has been passed");
-        //Obviously after this has been obtained, then we set all the layout shit.
+
 
         projectsAdapter = new ProjectsAdapter(listOfProjects);
         projectsRecyclerView.setAdapter(projectsAdapter);
@@ -92,7 +90,6 @@ public class FragmentTwo extends Fragment implements GitHubCallback<ArrayList<Pr
         projectsLinearLayoutManager = new LinearLayoutManager(this.getContext());
         projectsRecyclerView.setLayoutManager(projectsLinearLayoutManager);
         invalidUsername.setText("");
-        Log.d("Student List Return", listOfProjects.toString());
     }
 
     @Override
