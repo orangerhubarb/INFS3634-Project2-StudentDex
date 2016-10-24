@@ -27,8 +27,6 @@ import com.example.infs3634project2.storage.TutorialsContract;
 
 public class EditTutorial extends AppCompatActivity {
 
-    //Need validation checks, so how do we stop people from entering in dodgy course codes or multiple lines of codes
-
     private Button updateTutorialButton;
     private Button deleteTutorialButton;
     private EditText tutorialNameEditText;
@@ -109,8 +107,6 @@ public class EditTutorial extends AppCompatActivity {
         int spinnerPositionAMPMStartSpinner = startAMPMAdapter.getPosition(findAMPM(start));
         classAMPMStartSpinner.setSelection(spinnerPositionAMPMStartSpinner);
 
-
-        //END GOES HERE
         String end = tutorialTime.substring(tutorialTime.length()/2);
         classEndSpinner = (Spinner) findViewById(R.id.classEndSpinner);
         ArrayAdapter<CharSequence> endAdapter = ArrayAdapter.createFromResource(this,
@@ -132,10 +128,9 @@ public class EditTutorial extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Need to regex this
                 if (tutorialNameEditText.getText().toString().matches("") || !tutorialNameEditText.getText().toString().matches("[a-zA-Z]{4}[0-9]{4}")) {
                     tutorialNameError.setErrorEnabled(true);
-                    tutorialNameError.setError("Please enter a valid tutorial name.");
+                    tutorialNameError.setError("Please enter a valid tutorial name (eg. INFS3634).");
                 } else {
 
                     String tutorialTime = classStartSpinner.getSelectedItem().toString() + classAMPMStartSpinner.getSelectedItem().toString() + " - "

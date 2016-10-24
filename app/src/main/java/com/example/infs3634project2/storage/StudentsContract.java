@@ -261,7 +261,7 @@ public class StudentsContract {
         }
     }
 
-    //Converts the string back to a String Array
+
     public static List<String> convertStringToArray(String string) {
         if (string == null || string.equals("null")) {
             List<String> blankArray = new ArrayList<>();

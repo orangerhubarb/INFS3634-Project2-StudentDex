@@ -167,19 +167,19 @@ public class EditStudent extends AppCompatActivity {
 
                 if (fName.matches("")) {
                     firstNameError.setErrorEnabled(true);
-                    firstNameError.setError("You have not provided a first name.");
+                    firstNameError.setError("Please provide a first name.");
                     noError = false;
                 }
 
                 if (lName.matches("")) {
                     lastNameError.setErrorEnabled(true);
-                    lastNameError.setError("You have not provided a last name.");
+                    lastNameError.setError("Please provide a last name.");
                     noError = false;
                 }
 
                 if (zID.matches("") || !zID.matches("z[0-9]{7}")) {
                     zIDError.setErrorEnabled(true);
-                    zIDError.setError("You have not entered a valid zID.");
+                    zIDError.setError("Please provide a valid zID (eg. z5062621).");
                     noError = false;
                 }
 
